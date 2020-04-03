@@ -1,2 +1,7 @@
 # Default ignored files
 /workspace.xml
+!/modules.xml
+!/vcs.xml
+!/Learning_Python.iml
+!/misc.xml
+!/inspectionProfiles/
