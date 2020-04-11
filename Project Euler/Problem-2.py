@@ -14,9 +14,9 @@ def fibonacci(n):
     f, f1, f2 = 0, 1, 2
     l = [2]
     if n == 1:
-        f = 0
+        return 0
     elif n == 2:
-        f = 2
+        return 2
     else:
         while f < n:
             f = f1 + f2
@@ -26,4 +26,4 @@ def fibonacci(n):
     return sum(l)
 
 
-print(fibonacci(4000000))
+print(fibonacci(2))
