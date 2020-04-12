@@ -17,4 +17,4 @@ def max_palindrome(n):
     return max(palindromes)
 
 
-print(max_palindrome(99))
+print(max_palindrome(999))
